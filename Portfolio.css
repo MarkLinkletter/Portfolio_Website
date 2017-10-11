@@ -1,0 +1,74 @@
+
+
+body {
+    background-color: black;
+}
+
+
+
+
+h1{
+    text-align: center;
+    color: aquamarine;
+    font-family: "montserrat", serif;
+    margin-bottom: 165px;
+}
+
+
+
+
+#logo{
+    width:350px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px
+
+}
+
+
+
+ul.nav{
+  text-align: center;
+      list-style: none;
+      padding: 0;
+        font font-family: "montserrat", serif;
+color: aquamarine;
+    }
+
+    .my-button{padding: 10px,12px;
+      color: aquamarine;
+      text-decoration: none;
+      display: inline-block;
+      font-family: "montserrat";
+      }
+      .my-button:hover{
+      font-size: 22px;
+      }
+ul.nav li{
+  display: inline;
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+  font font-family: "montserrat";
+  font-size: 20px;
+  color: aquamarine;
+
+ }
+
+
+p {
+    background-color: lightgray;
+    color: black;
+    font-family: "montserrat", serif;
+    text-align: center;
+    font-size: 20px;
+    padding:200px;
+
+}
+#otherImage{
+    width:350px;
+    display: block;
+    margin: 0 auto;
+
+}
