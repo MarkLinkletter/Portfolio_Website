@@ -72,3 +72,17 @@ p {
     margin: 0 auto;
 
 }
+form{
+  background-color: lightgray;
+  padding-left: 500px;
+
+}
+
+.row{
+  color: black;
+  width: 300px;
+  font-family: "montserrat";
+
+  font-size: 20px;
+
+}

@@ -39,13 +39,27 @@
 
             <img id="otherImage" src="profile_picture.png">
             Hey! My name is Mark Linkletter and I am a graphic designer from Westchester, New York. I am primarily interested in illustration and have a strong background in print media. My latest work however deals more with using my illustrative skills towards logo designs and simple animations. I have recently graduated from The State University of New York at Oswego and received a Bachelor of Fine Arts. I am 22 years old and currently employed as a Graphic Design Associate for David Monn LLC. In the future I hope to learn web design well enough to pursue a career in it, or at least add it to my graphic design skillset.
-        </p>
+
         <!-- End of paragraph #1 -->
 
 
+</p>
 
-
-
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="90" /><br />
+  </div>
+  <div class="row">
+    <label for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="90" /><br />
+  </div>
+  <div class="row">
+    <label for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="20" cols="90"></textarea><br />
+  </div>
+  <input id="submit_button" type="submit" value="Send email" />
+</form>
     </body>
     <!-- End of Body -->
 
